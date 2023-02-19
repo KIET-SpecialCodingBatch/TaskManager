@@ -1,0 +1,45 @@
+body{
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    height:100vh; 
+    background-size: 140%;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1{
+    text-align:center;
+    padding-top: 15px;
+  }
+  h2{
+    text-align:center;
+  }
+  form{
+    width: 250px;
+    margin-left: 20px;
+    position: center
+  }
+  form label{
+    display: inline-flex;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  form input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 7px;
+    outline: none;
+  }
+  
+  input[type="button"]{
+    width: 250px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: aqua;
+  }
+  p{
+    text-align:center;
+  }

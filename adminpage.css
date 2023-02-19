@@ -1,0 +1,23 @@
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body {
+    background-image: url("images.jpg");
+    background-size: 1400px 600px;
+   }
+   
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #2f1f86;
+    color: #f0f6f8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0a0621;
+}
